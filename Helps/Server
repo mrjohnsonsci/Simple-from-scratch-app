@@ -1,0 +1,16 @@
+Listing 1.6: Running the Rails server on a local machine.
+$ cd ~/workspace/hello_app/
+$ rails server
+=> Booting Puma
+=> Rails application starting on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+
+
+Listing 1.7: Running the Rails server on the cloud IDE.
+$ cd ~/workspace/hello_app/
+$ rails server -b $IP -p $PORT
+=> Booting Puma
+=> Rails application starting on http://localhost:8080
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
