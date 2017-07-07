@@ -1,0 +1,2 @@
+rails console
+>> User.find_by(email: "example@railstutorial.org")

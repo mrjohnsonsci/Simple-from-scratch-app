@@ -1,7 +1,17 @@
+
+bundle install --without production
+
+
 $ git commit -am "Add hello"
 $ git push
 $ heroku create
 $ git push heroku master
 
+heroku run rails db:migrate
+
+heroku run console --sandbox
+
 As you proceed through the rest of the book, I recommend pushing and deploying the application regularly, which automatically makes remote backups and lets you catch any production errors as soon as possible. If you run into problems at Heroku, make sure to take a look at the production logs to try to diagnose the problem:
 $ heroku logs
+
+
